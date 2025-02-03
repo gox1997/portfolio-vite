@@ -27,7 +27,10 @@ const data = [
 
 const Work = () => {
     return (
-        <div id="work" className="w-4/5 max-w-1/2 m-auto md:pl-30 pb-4 py-16">
+        <div
+            id="work"
+            className="w-4/5 max-w-1/2 m-auto md:pl-30 pb-4 py-16 h-screen"
+        >
             <h1 className="text-4xl font-bold text-center text-[#001b5e] p-4">
                 Work
             </h1>
