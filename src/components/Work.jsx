@@ -27,22 +27,21 @@ const data = [
 
 const Work = () => {
     return (
-        <div
-            id="work"
-            className="w-4/5 max-w-1/2 m-auto md:pl-30 pb-4 py-16 h-screen"
-        >
-            <h1 className="text-4xl font-bold text-center text-[#001b5e] p-4">
-                Work
+        <div id="work" className="container mx-auto px-4 py-16 min-h-screen">
+            <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-8">
+                Work Experience
             </h1>
-            {data.map((item, index) => (
-                <WorkItem
-                    key={index}
-                    year={item.year}
-                    title={item.title}
-                    duration={item.duration}
-                    details={item.details}
-                />
-            ))}
+            <div className="max-w-4xl mx-auto space-y-6">
+                {data.map((item, index) => (
+                    <WorkItem
+                        key={index}
+                        year={item.year}
+                        title={item.title}
+                        duration={item.duration}
+                        details={item.details}
+                    />
+                ))}
+            </div>
         </div>
     );
 };

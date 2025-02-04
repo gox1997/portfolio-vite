@@ -4,8 +4,11 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
     return (
-        <div id="contact" className=" min-h-screen mt-auto">
-            <div className="grid sm:grid-cols-2 items-start gap-12 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
+        <div
+            id="contact"
+            className="flex items-center justify-center min-h-screen py-16"
+        >
+            <div className="grid grid-cols-1 sm:grid-cols-2 items-start gap-6 md:gap-12 p-4 sm:p-8 mt-10 mx-auto w-full max-w-4xl bg-white shadow-lg rounded-md font-sans">
                 <div>
                     <h1 className="text-[#001b5e] text-3xl font-bold">
                         Let's Talk
