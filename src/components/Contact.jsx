@@ -65,7 +65,7 @@ const Contact = () => {
                     action="https://getform.io/f/apjjdzma"
                     method="POST"
                     encType="multipart/form-data"
-                    className="ml-auo space-y-4"
+                    className="ml-auto space-y-4"
                 >
                     <input
                         type="text"
@@ -92,7 +92,7 @@ const Contact = () => {
                         className="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-none focus:border-blue-500"
                     ></textarea>
                     <button
-                        type="button"
+                        type="submit"
                         className="text-white bg-blue-500 hover:bg-blue-600 rounded-md text-sm px-4 py-2.5 w-full !mt-6"
                     >
                         Send
