@@ -1,12 +1,13 @@
 import React from "react";
 import { FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Contact = () => {
     return (
-        <div className="mt-6 ">
+        <div id="contact" className=" min-h-screen mt-auto">
             <div className="grid sm:grid-cols-2 items-start gap-12 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md font-[sans-serif]">
                 <div>
-                    <h1 className="text-gray-800 text-3xl font-bold">
+                    <h1 className="text-[#001b5e] text-3xl font-bold">
                         Let's Talk
                     </h1>
                     <p className="text-sm text-gray-500 mt-4 ">
@@ -21,7 +22,9 @@ const Contact = () => {
                         </h2>
                         <ul className="mt-4">
                             <li className="flex items-center">
-                                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0"></div>
+                                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                    <AiOutlineMail />
+                                </div>
                                 <a
                                     href="javascript:void(0)"
                                     className="text-[#007bff] text-sm ml-4"
@@ -40,36 +43,51 @@ const Contact = () => {
 
                         <ul className="flex mt-4 space-x-4">
                             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)">
+                                    <FaFacebookF />
+                                </a>
                             </li>
                             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)">
+                                    <FaLinkedin />
+                                </a>
                             </li>
                             <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="javascript:void(0)"></a>
+                                <a href="javascript:void(0)">
+                                    <FaGithub />
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <form classNameName="ml-auo space-y-4">
+                <form
+                    action="https://getform.io/f/apjjdzma"
+                    method="POST"
+                    encType="multipart/form-data"
+                    className="ml-auo space-y-4"
+                >
                     <input
                         type="text"
+                        name="name"
                         placeholder="Name"
-                        classNameName="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
+                        className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
                     />
                     <input
                         type="email"
+                        name="email"
                         placeholder="Email"
                         className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
                     />
                     <input
                         type="text"
+                        name="subject"
                         placeholder="Subject"
                         className="w-full text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-none focus:border-blue-500"
                     />
                     <textarea
                         placeholder="Message"
+                        name="message"
                         rows="6"
                         className="w-full text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-none focus:border-blue-500"
                     ></textarea>
