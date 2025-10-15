@@ -9,16 +9,15 @@ const Main = () => {
         <div id="main">
             <img
                 className="w-full h-screen object-cover "
-                src="https://r4.wallpaperflare.com/wallpaper/385/220/840/space-clouds-aurorae-dark-wallpaper-18c68c8a1ffcb7e95e90c9c252198b20.jpg"
+                src="/src/assets/withdarkshades-nfTVDjMaXYc-unsplash.jpg"
                 alt=""
             />
             <div className="absolute w-full h-screen top-0 left-0">
-                <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-start items-center gap-2">
-                    <h1 className="sm:text-5xl text-4xl font-mono">
+                <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center gap-2">
+                    <h1 className="sm:text-5xl text-4xl text-bold font-mono">
                         Hi! I&apos;m Goran
                     </h1>
                     <h2 className="flex sm:text-3xl text-2xl pt-4">
-                        a
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
@@ -40,23 +39,35 @@ const Main = () => {
                         />
                     </h2>
                     <div className="flex gap-16 justify-between pt-6 ">
-                        <FaLinkedin
-                            className="cursor-pointer"
-                            style={styleIcon}
-                            size={30}
-                        />
+                        <a
+                            href="http://www.linkedin.com/in/goran-škaljac-0167432b4"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn Profile"
+                            className="cursor-pointer hover:scale-110 transition-transform"
+                        >
+                            <FaLinkedin className="text-white" size={30} />
+                        </a>
 
-                        <FaFacebookF
-                            className="cursor-pointer"
-                            style={styleIcon}
-                            size={30}
-                        />
-
-                        <FaGithub
-                            className="cursor-pointer"
-                            style={styleIcon}
-                            size={30}
-                        />
+                        <a
+                            href="https://www.facebook.com/goran.skaljac.1/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Facebook Profile"
+                            className="cursor-pointer hover:scale-110 transition-transform"
+                        >
+                            <FaFacebookF className="text-white" size={30} />
+                        </a>
+                        {/* GitHub */}
+                        <a
+                            href="https://github.com/gox1997"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub Profile"
+                            className="cursor-pointer hover:scale-110 transition-transform"
+                        >
+                            <FaGithub className="text-white" size={30} />
+                        </a>
                     </div>
                 </div>
             </div>

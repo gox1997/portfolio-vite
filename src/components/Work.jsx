@@ -1,6 +1,6 @@
 import React from "react";
 import WorkItem from "./WorkItem";
-/** array */
+
 const data = [
     {
         year: 2023,
@@ -27,9 +27,12 @@ const data = [
 
 const Work = () => {
     return (
-        <div id="work" className="container mx-auto px-4 py-16 min-h-screen">
+        <div
+            id="work"
+            className="hidden container mx-auto px-4 py-16 min-h-screen"
+        >
             <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-8">
-                Work Experience
+                Work experience
             </h1>
             <div className="max-w-4xl mx-auto space-y-6">
                 {data.map((item, index) => (

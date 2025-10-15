@@ -1,18 +1,19 @@
-import { useState } from "react";
 import Sidenav from "./components/Sidenav";
 import Main from "./components/Main";
-import Work from "./components/Work";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Work from "./components/Work";
 
 function App() {
     return (
         <>
             <Sidenav />
             <Main />
-            <Work />
+            <Skills />
             <Projects />
             <Contact />
+            <Work />
         </>
     );
 }

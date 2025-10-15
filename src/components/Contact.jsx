@@ -13,7 +13,7 @@ const Contact = () => {
                     <h1 className="text-[#001b5e] text-3xl font-bold">
                         Let's Talk
                     </h1>
-                    <p className="text-sm text-gray-500 mt-4 ">
+                    <p className="text-sm sm:text-xl text-gray-500 mt-4 ">
                         Have some big idea or brand to develop and need help?
                         Then reach out we'd love to hear about your project and
                         provide help.
@@ -45,19 +45,41 @@ const Contact = () => {
                         </h2>
 
                         <ul className="flex mt-4 space-x-4">
-                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="javascript:void(0)">
-                                    <FaFacebookF />
+                            <li>
+                                <a
+                                    href="https://facebook.com/goran.skaljac.1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Facebook Profile"
+                                    className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 hover:bg-blue-100 transition-colors"
+                                >
+                                    <FaFacebookF className="text-gray-700 hover:text-blue-600" />
                                 </a>
                             </li>
-                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="javascript:void(0)">
-                                    <FaLinkedin />
+
+                            {/* LinkedIn */}
+                            <li>
+                                <a
+                                    href="https://linkedin.com/in/goran-škaljac-0167432b4"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="LinkedIn Profile"
+                                    className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 hover:bg-blue-100 transition-colors"
+                                >
+                                    <FaLinkedin className="text-gray-700 hover:text-blue-600" />
                                 </a>
                             </li>
-                            <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                                <a href="javascript:void(0)">
-                                    <FaGithub />
+
+                            {/* GitHub */}
+                            <li>
+                                <a
+                                    href="https://github.com/gox1997"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="GitHub Profile"
+                                    className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 hover:bg-blue-100 transition-colors"
+                                >
+                                    <FaGithub className="text-gray-700 hover:text-gray-900" />
                                 </a>
                             </li>
                         </ul>
