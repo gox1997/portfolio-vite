@@ -21,19 +21,19 @@ const Skills = () => {
                         className="hover:scale-110 ease-in duration-300"
                     />
                     <img
-                        src="/src/assets/icons/css-3.svg"
+                        src="/assets/icons/css-3.svg"
                         alt="css-icon"
                         width={80}
                         className="hover:scale-110 ease-in duration-300"
                     />
                     <img
-                        src="/src/assets/icons/javascript-1.svg"
+                        src="/assets/icons/javascript-1.svg"
                         alt="css-icon"
                         width={80}
                         className="hover:scale-110 ease-in duration-300"
                     />
                     <img
-                        src="/src/assets/icons/tailwind-css-1.svg"
+                        src="/assets/icons/tailwind-css-1.svg"
                         alt="css-icon"
                         width={80}
                         className="hover:scale-110 ease-in duration-300"

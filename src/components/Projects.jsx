@@ -1,8 +1,5 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import scaledroneImg from "../assets/scaledrone.png";
-import qrImg from "../assets/qr.png";
-import portfolioImg from "../assets/portfolio.png";
 
 const Projects = () => {
     return (
@@ -23,16 +20,25 @@ const Projects = () => {
                     href="https://chat-app-scaledrone-six.vercel.app/"
                     target="_blank"
                 >
-                    <ProjectItem img={scaledroneImg} title="Chat app" />
+                    <ProjectItem
+                        img="/assets/scaledrone.png"
+                        title="Chat app"
+                    />
                 </a>
                 <a
                     href="https://qr-code-component-theta-ten.vercel.app/"
                     target="_blank"
                 >
-                    <ProjectItem img={qrImg} title="QR code component" />
+                    <ProjectItem
+                        img="/assets/qr.png"
+                        title="QR code component"
+                    />
                 </a>
                 <a href="">
-                    <ProjectItem img={portfolioImg} title="Portfolio" />
+                    <ProjectItem
+                        img="/assets/portfolio.png"
+                        title="Portfolio"
+                    />
                 </a>
             </div>
         </div>
