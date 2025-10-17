@@ -29,8 +29,8 @@ const Contact = () => {
                                     <AiOutlineMail />
                                 </div>
                                 <a
-                                    href="javascript:void(0)"
-                                    className="text-[#007bff] text-sm ml-4"
+                                    href="mailto:goran.skaljac97@gmail.com"
+                                    className="text-[#007bff] text-sm ml-4 hover:underline"
                                 >
                                     <small className="block">Mail</small>
                                     <strong>goran.skaljac97@gmail.com</strong>

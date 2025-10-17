@@ -10,8 +10,8 @@ function App() {
         <>
             <Sidenav />
             <Main />
-            <Skills />
             <Projects />
+            <Skills />
             <Contact />
             <Work />
         </>

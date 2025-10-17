@@ -7,6 +7,7 @@ import {
     AiOutlineClose,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
+import { FaCode } from "react-icons/fa";
 
 const Sidenav = () => {
     const [nav, setNav] = useState(false);
@@ -44,9 +45,18 @@ const Sidenav = () => {
                         <span className="pl-4">Projects</span>
                     </a>
                     <a
-                        href="/public/pdfs/Resume_Goran_Skaljac.pdf"
+                        href="#skills"
+                        onClick={handleNav}
+                        className="w-[90%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+                    >
+                        <FaCode size={20} />
+                        <span className="pl-4">Skills</span>
+                    </a>
+                    <a
+                        href="/pdfs/Resume_Goran_Skaljac.pdf"
                         onClick={handleNav}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="w-[90%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
                     >
                         <BsPerson size={20} />
@@ -77,8 +87,15 @@ const Sidenav = () => {
                         <AiOutlineProject size={20} />
                     </a>
                     <a
+                        href="#skills"
+                        className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+                    >
+                        <FaCode size={20} />
+                    </a>
+                    <a
                         href="/pdfs/Resume_Goran_Skaljac.pdf"
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
                     >
                         <BsPerson size={20} />

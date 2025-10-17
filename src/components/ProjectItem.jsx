@@ -13,11 +13,10 @@ const ProjectItem = ({ img, title }) => {
                     {title}
                 </h3>
                 <p className="pb-4 pt-2 text-white text-center">ReactJS</p>
-                <a href="/">
-                    <p className="rounded-lg text-center p-3 bg-white font-bold text-gray-700 text-lg cursor-pointer">
-                        More info
-                    </p>
-                </a>
+
+                <p className="rounded-lg text-center p-3 bg-white font-bold text-gray-700 text-lg cursor-pointer">
+                    More info
+                </p>
             </div>
         </div>
     );
