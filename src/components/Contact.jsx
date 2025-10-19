@@ -14,9 +14,11 @@ const Contact = () => {
                         Let's Talk
                     </h1>
                     <p className="text-sm sm:text-xl text-gray-500 mt-4 ">
-                        Have some big idea or brand to develop and need help?
-                        Then reach out we'd love to hear about your project and
-                        provide help.
+                        Ready to bring your ideas to life? Whether you have a
+                        project in mind, need a frontend developer, or just want
+                        to connect - I'd love to hear from you. Let's discuss
+                        how we can work together to build something
+                        extraordinary.
                     </p>
 
                     <div className="mt-12">
