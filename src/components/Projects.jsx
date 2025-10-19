@@ -10,10 +10,12 @@ const Projects = () => {
             <h1 className="text-4xl font-bold text-center text-[#001b5e] p-4">
                 Projects
             </h1>
-            <p className="text-center text-xl text-gray-600 mb-8">
-                My frontend projects. Scaledrone chat app, QR code component,
-                Portfolio (a custom website portfolio using React, Vite,
-                Tailwind CSS), and many more projects to come!
+
+            <p className="max-w-2xl text-center text-xl text-gray-600 mb-12">
+                Explore my frontend development journey through these projects.
+                From real-time applications to responsive components, each
+                project demonstrates my growing expertise in modern web
+                technologies.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <a
@@ -23,6 +25,7 @@ const Projects = () => {
                     <ProjectItem
                         img="/assets/scaledrone.png"
                         title="Chat app"
+                        description="Real-time messaging application with Scaledrone"
                     />
                 </a>
                 <a
@@ -32,12 +35,14 @@ const Projects = () => {
                     <ProjectItem
                         img="/assets/qr.png"
                         title="QR code component"
+                        description="Clean QR code component with modern design"
                     />
                 </a>
                 <a href="">
                     <ProjectItem
                         img="/assets/portfolio.png"
                         title="Portfolio"
+                        description="Personal portfolio built with React & Tailwind CSS"
                     />
                 </a>
             </div>

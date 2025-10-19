@@ -82,7 +82,7 @@ const Skills = () => {
                             { skill: "JavaScript", level: 80 },
                             { skill: "React", level: 75 },
                             { skill: "Tailwind CSS", level: 85 },
-                            { skill: "Git/GitHub", level: 70 },
+                            { skill: "Git/GitHub", level: 90 },
                         ].map((item, index) => (
                             <div key={index} className="space-y-2">
                                 <div className="flex justify-between">
