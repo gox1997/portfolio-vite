@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProjectItem = ({ img, title, description }) => {
     return (
         <div className="relative group cursor-pointer overflow-hidden rounded-2xl">

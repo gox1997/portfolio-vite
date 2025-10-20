@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
@@ -11,13 +10,13 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 items-start gap-6 md:gap-12 p-4 sm:p-8 mt-10 mx-auto w-full max-w-4xl bg-white shadow-lg rounded-md font-sans">
                 <div>
                     <h1 className="text-[#001b5e] text-3xl font-bold">
-                        Let's Talk
+                        Let&apos;s Talk
                     </h1>
                     <p className="text-sm sm:text-xl text-gray-500 mt-4 ">
                         Ready to bring your ideas to life? Whether you have a
                         project in mind, need a frontend developer, or just want
-                        to connect - I'd love to hear from you. Let's discuss
-                        how we can work together to build something
+                        to connect - I&apos;d love to hear from you. Let&apos;s
+                        discuss how we can work together to build something
                         extraordinary.
                     </p>
 

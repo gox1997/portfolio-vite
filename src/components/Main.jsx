@@ -1,8 +1,5 @@
-import React from "react";
 import { FaFacebookF, FaLinkedin, FaGithub } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-
-const styleIcon = { color: "white", fontSize: "1.5em" };
 
 const Main = () => {
     return (

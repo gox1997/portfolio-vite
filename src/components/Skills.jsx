@@ -1,4 +1,3 @@
-import React from "react";
 import { TiHtml5 } from "react-icons/ti";
 import {
     SiCss3,
@@ -47,9 +46,9 @@ const Skills = () => {
 
                 <p className="max-w-2xl text-center text-lg text-gray-600 mb-12">
                     I am a Frontend developer with a strong foundation in HTML,
-                    CSS, JavaScript and React.js. I've built several personal
-                    projects and I'm proficient in modern development tools and
-                    version control.
+                    CSS, JavaScript and React.js. I&apos;ve built several
+                    personal projects and I&apos;m proficient in modern
+                    development tools and version control.
                 </p>
 
                 {/* Skills Grid */}
