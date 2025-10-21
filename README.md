@@ -1,8 +1,36 @@
-# React + Vite
+# Portfolio - Goran Skaljac
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern frontend developer portfolio built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[View Live Site](https://portfolio-vite-dun.vercel.app/)**
+
+## 📋 Features
+
+- Responsive design
+- Modern UI/UX
+- Contact form
+- Project showcase
+- Skills section
+
+## 🛠️ Built With
+
+- React
+- Vite
+- Tailwind CSS
+- React Icons
+
+ ![Portfolio Preview](/public/assets/portfolio.png)
+
+## 🏃‍♂️ Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
