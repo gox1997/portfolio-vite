@@ -25,6 +25,7 @@ const Projects = () => {
                         img="/assets/scaledrone.png"
                         title="Chat app"
                         description="Real-time messaging application with Scaledrone"
+                        techStack={["Next.js", "Tailwind"]}
                     />
                 </a>
                 <a
@@ -35,6 +36,18 @@ const Projects = () => {
                         img="/assets/qr.png"
                         title="QR code component"
                         description="Clean QR code component with modern design"
+                        techStack={["HTML", "CSS"]}
+                    />
+                </a>
+                <a
+                    href="https://to-do-app-theta-gold.vercel.app//"
+                    target="_blank"
+                >
+                    <ProjectItem
+                        img="/assets/to-do.png"
+                        title="To-do App"
+                        description="Responsive task management application"
+                        techStack={["Vite", "Tailwind"]}
                     />
                 </a>
                 <a href="">
@@ -42,6 +55,7 @@ const Projects = () => {
                         img="/assets/portfolio.png"
                         title="Portfolio"
                         description="Personal portfolio built with React & Tailwind CSS"
+                        techStack={["Vite", "Tailwind"]}
                     />
                 </a>
             </div>

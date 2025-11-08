@@ -1,4 +1,4 @@
-const ProjectItem = ({ img, title, description }) => {
+const ProjectItem = ({ img, title, description, techStack }) => {
     return (
         <div className="relative group cursor-pointer overflow-hidden rounded-2xl">
             {/* Background Image with Overlay */}
@@ -17,15 +17,16 @@ const ProjectItem = ({ img, title, description }) => {
                 <p className="text-white text-sm mb-4">{description}</p>
 
                 {/* Tech Stack */}
-                <div className="flex items-center space-x-2 mb-4">
-                    <span className="px-2 py-1 bg-blue-500/20 backdrop-blur-sm rounded-full text-xs border border-blue-400/30">
-                        React
-                    </span>
-                    <span className="px-2 py-1 bg-purple-500/20 backdrop-blur-sm rounded-full text-xs border border-purple-400/30">
-                        Tailwind
-                    </span>
+                <div className="flex flex-wrap items-center gap-2 mb-4">
+                    {techStack.map((tech, index) => (
+                        <span
+                            key={index}
+                            className="px-2 py-1 bg-blue-500/20 backdrop-blur-sm rounded-full text-xs border border-blue-400/30"
+                        >
+                            {tech}
+                        </span>
+                    ))}
                 </div>
-
                 {/* CTA Button */}
                 <button className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg py-3 px-4 text-sm font-medium hover:bg-white/20 transition-all duration-300 transform group-hover:scale-105">
                     View Project →
